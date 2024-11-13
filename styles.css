@@ -1,0 +1,62 @@
+/* Суурь стиль */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Ерөнхий арын өнгө */
+body {
+    background-color: #f8a6d1;  /* Ягаан өнгө */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+/* Контейнер */
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Мэндчилгээний стиль */
+.greeting {
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Мэдээлэл / мэндчилгээ */
+.message {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* GIF-ийн стиль */
+.birthday-gif {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Бүртгэл хийх товч */
+.btn {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    background-color: #ff78a1;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff4674;
+}
