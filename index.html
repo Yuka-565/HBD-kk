@@ -3,16 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Төрсөн өдрийн мэндчилгээ</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Шинэ жилийн урилга</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1 class="greeting">Төрсөн өдрийн Мэнд!</h1>
-        <p class="message">Таны амьдралын хамгийн сайн өдөр болж, бүх хүсэл мөрөөдөл нь биелэх болтугай!</p>
-        <img src="https://media.giphy.com/media/3o6Zt3XdrfzX1NSyf6/giphy.gif" alt="Happy Birthday GIF" class="birthday-gif">
-        <button id="changeGreetingBtn" class="btn">Баяр хүргэе!</button>
+    <!-- Эхний хуудас -->
+    <div class="page" id="page1">
+        <div class="invitation">
+            <h1>Шинэ жилийн баярын урилга!</h1>
+            <p>Хүндэт хамт олондоо шинэ жилийн баярын мэнд дэвшүүлж, 2024 оныг хамтдаа угтахад урьж байна.</p>
+            <p>Та манай шинэ жилийн ширээний нэгэн хэсэг болж, баяр хөөртэй орчныг бүрдүүлээрэй!</p>
+            <button id="getSeatBtn">Та энд дарж суудлын дугаараа авна уу</button>
+        </div>
     </div>
+
+    <!-- Хоёрдугаар хуудас -->
+    <div class="page" id="page2" style="display:none;">
+        <div class="seat-info">
+            <h2>Баяр хүргэе!</h2>
+            <p>Та <span id="seatNumber"></span> дэх дугаарын ширээнд суухаар боллоо.</p>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
+
